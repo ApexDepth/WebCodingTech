@@ -1,0 +1,57 @@
+body{
+    margin: 1%;
+    padding: 0;
+    background-color: beige;
+    color: black;
+    border-radius: 10% ;
+    border-top: 10px;
+    border-color: cornflowerblue;
+}
+
+main{
+    width: 75%;
+    
+}
+header{
+    background-image:url(images/header.jpg);
+    font-size: 20pt;
+    height: 160px;
+    width: 640px;
+    line-height: 160;
+    text-align: center;
+    color: lavenderblush;
+    text-shadow: 2px 2px brown;
+    
+}
+nav ul{
+list-style-type: none;
+display: block;
+}
+
+nav li{
+    display:inline-block;
+    padding-right: .5%;
+}
+
+.logo {
+    size: 10%;
+}
+.header.jpeg{
+
+}
+a:link{
+    text-decoration: none;
+}
+
+a:hover {
+
+}
+#wrapper{
+    width: 75%;
+    margin: 0 auto;
+}
+@media screen and (min-width: 480px){
+.logo {
+    display:none;
+}
+}
